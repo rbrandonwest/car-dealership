@@ -1,0 +1,102 @@
+.container-fluid {
+    background-color: red;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: 'Share';
+    font-size: 28px;
+}
+
+a {
+    color: white;
+}
+
+nav {
+    margin-bottom: 0px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    flex-flow: wrap;
+}
+
+ul li.image-grid-item {
+    width: 25%;
+}
+
+ul li img {
+    width: 25%;
+}
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+footer {
+    height: 125px;
+    background-color: cornflowerblue;
+}
+
+footer p {
+    padding: 50px;
+    font-size: 18px;
+    color: white;
+}
+
+section p {
+    font-size: 28px;
+    text-align: center;
+    padding: 100px;
+}
+
+
+.container {
+    width: 100%;
+    padding: 0px;
+}
+
+.inventoryCar {
+    text-align: center;
+    margin: 20px 20px;
+    width: 25%;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+.inventoryContainer {
+    padding: 20px;
+}
+
+#filterCars {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+th {
+    text-align: center;
+}
+
+.carousel-indicators li {
+    display: none;
+}
+
+.btn {
+    border: 1px solid lightgray;
+}
